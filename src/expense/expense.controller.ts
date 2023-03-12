@@ -49,9 +49,4 @@ export class ExpenseController {
   ) {
     return this.expenseService.deleteUserExpenseById(userId, expenseId);
   }
-
-  @Get()
-  testGet() {
-    return true;
-  }
 }
